@@ -8,3 +8,7 @@
  .nav {
    margin-top: 5px;
  }
+
+body > div > ul > li:nth-child(1) > a > img {
+  width:2em;
+}

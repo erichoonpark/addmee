@@ -6,7 +6,6 @@ class CreatePosts < ActiveRecord::Migration
       t.string :cost
       t.integer :openspots
       t.boolean :approval
-
       t.timestamps null: false
     end
   end
