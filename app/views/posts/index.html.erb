@@ -8,6 +8,7 @@
        <small>
          submitted <%= time_ago_in_words(post.created_at) %> ago by <%= post.user.name %><br>
          <%= post.comments.count %> Comments
+         <%= link_to Category.find(post.category_id).name, category_path(post.category_id) %>
        </small>
      </div>
    </div>

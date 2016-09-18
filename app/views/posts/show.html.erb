@@ -1,7 +1,8 @@
 <h1><%= @post.title %></h1>
+<p>Description:<%= @post.description %></p>
+<p>Cost:<%= @post.cost %></p>
+<p>Open Spots:<%= @post.openspots %></p>
+<p>Approval:<%= @post.approval %></p>
+<p>Post Id:<%= @post.id %></p>
+<p>Category Id:<%= @post.category.name %></p>
 <%= link_to "Edit", edit_post_path(@post), class: 'btn btn-success' %>
-<p><%= @post.description %></p>
-<p><%= @post.cost %></p>
-<p><%= @post.openspots %></p>
-<p><%= @post.approval %></p>
-<p><%= @post.id %></p>
